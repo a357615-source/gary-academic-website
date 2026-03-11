@@ -87,22 +87,18 @@ Key UX elements include:
 # 📂 Project Structure
 
 
-MyAcademicWebsite
-│
-└── frontend
-│
-├── app
-│ ├── globals.css # Global Tailwind configuration
-│ ├── layout.tsx # Root layout + SEO metadata
-│ └── page.tsx # Main homepage components
-│
-├── public
-│ └── me.jpg # Personal portrait
-│
-├── package.json # Dependencies
-├── tsconfig.json # TypeScript configuration
-└── .gitignore
-
+```text
+MyAcademicWebsite/
+└── frontend/
+    ├── app/
+    │   ├── globals.css      # Tailwind v4 全域配置
+    │   ├── layout.tsx       # 根佈局 (HTML 地基)
+    │   └── page.tsx         # 核心頁面內容 (YCCP 響應式佈局)
+    ├── public/
+    │   └── me.jpg           # 個人形象照片
+    ├── .gitignore           # Git 忽略清單
+    ├── package.json         # 專案套件管理
+    └── tsconfig.json        # TypeScript 設定
 
 ---
 
