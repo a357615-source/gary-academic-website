@@ -38,8 +38,6 @@ The website serves as a digital academic identity, presenting research interests
 ---
 ## 📂 Project Structure
 
-## 📂 Project Structure
-
 ```text
 MyAcademicWebsite/
 └── frontend/
@@ -51,66 +49,47 @@ MyAcademicWebsite/
     │   └── me.jpg           # 個人形象照片
     ├── .gitignore           # Git 忽略清單
     ├── package.json         # 專案套件管理
-    └── tsconfig.json        # TypeScript 設定
+    └── tsconfig.json        # TypeScript 設定 
+```
+---
+## 🚀 Quick Start
+
+### 1. Prerequisites
+Ensure you have **Node.js (LTS version)** installed on your machine. [Download Node.js](https://nodejs.org).
+
+### 2. Installation
+Navigate to the frontend directory and install the necessary dependencies:
 
 
-
-🚀 Quick Start
-1️⃣ Prerequisites
-
-Ensure you have Node.js (LTS version) installed.
-
-Download here:
-https://nodejs.org
-
-2️⃣ Installation
-
-Navigate to the frontend directory and install dependencies:
-
+```bash
 cd frontend
 npm install
-3️⃣ Development
+3. Development
+Start the local development server:
 
-Start the development server with hot-reload enabled:
-
+```bash
 npm run dev
+Open http://localhost:3000 in your browser to view the website.
 
-Open in browser:
+4. Build for Production
+To generate a production-ready build:
 
-http://localhost:3000
-4️⃣ Production Build
-
-Build the optimized production version:
-
+```bash
 npm run build
 🔧 Maintenance Guide
-Update Profile Photo
+Update Profile Photo: Replace the image file at public/me.jpg.
 
-Replace the file:
+Modify Research Topics: Edit the researchTopics array inside app/page.tsx.
 
-public/me.jpg
-Modify Research Topics
+Change Footer Signature: Search for the string YCCP inside the project to customize system credits.
 
-Edit the researchTopics array inside:
-
-app/page.tsx
-Change Footer Signature
-
-Search the string below in the project:
-
-YCCP
 👨‍💻 Credits & Metadata
+Principal Researcher: Gary Wang (Tokyo, Japan)
 
-Principal Researcher
-Gary Wang (Tokyo, Japan)
+Design & Engineering: YCCP Systems
 
-Design & Engineering
-YCCP Systems
+Repository: a357615-source
 
-Repository
-a357615-source
+Last Updated: 2026-03-11
 
-Last Updated
-2026-03-11
-
-<p align="center"> © 2026 GARY WANG | Managed by YCCP Systems </p> ```
+<p align="center">© 2026 GARY WANG | Managed by YCCP Systems</p>
