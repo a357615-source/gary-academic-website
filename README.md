@@ -38,6 +38,8 @@ The website serves as a digital academic identity, presenting research interests
 ---
 ## 📂 Project Structure
 
+## 📂 Project Structure
+
 ```text
 MyAcademicWebsite/
 └── frontend/
@@ -50,6 +52,9 @@ MyAcademicWebsite/
     ├── .gitignore           # Git 忽略清單
     ├── package.json         # 專案套件管理
     └── tsconfig.json        # TypeScript 設定
+
+
+
 🚀 Quick Start
 1️⃣ Prerequisites
 
