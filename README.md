@@ -1,36 +1,34 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+"# Gary Wang Academic Portfolio by YCCP" 
+# 🎓 Gary Wang | Academic Portfolio (Researcher @ Tokyo)
 
-## Getting Started
+這是一個為學術研究人員量身打造的極簡風格個人網站。採用現代化的前端技術棧，並由 **YCCP Systems** 專屬開發與優化。
 
-First, run the development server:
+---
 
+## 🎨 專案特點 (Features)
+- **響應式排版 (Responsive Design)**：完美適配手機、平板與桌機。
+- **學術美學 (Academic Aesthetic)**：採用優雅的襯線體 (Serif) 與極簡灰階色調。
+- **研究導向 (Research-First)**：結構化展示 Research Topics，並預留 Publications 與 Careers 區塊。
+- **優化 UI/UX**：包含毛玻璃導覽列 (Backdrop Blur)、互動式側邊欄與相框感照片展示。
+
+---
+
+## 🛠 技術堆疊 (Tech Stack)
+- **Frontend Framework:** Next.js 15+ (App Router)
+- **Styling:** Tailwind CSS v4 (Modern Engine)
+- **Icons:** Lucide React
+- **System Design:** YCCP v4 Professional Standard
+- **Backend (Optional):** Python FastAPI
+
+---
+
+## 🚀 快速啟動 (Quick Start)
+
+### 1. 安裝環境
+確保你的電腦已安裝 [Node.js](https://nodejs.org/)。
+
+### 2. 安裝依賴
+在終端機進入 `frontend` 資料夾：
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+cd frontend
+npm install
