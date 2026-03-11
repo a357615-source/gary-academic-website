@@ -6,10 +6,10 @@
 </p>
 
 <p align="center">
-  <img src="[https://img.shields.io/badge/Next.js-15-black?logo=nextdotjs](https://img.shields.io/badge/Next.js-15-black?logo=nextdotjs)" alt="Next.js">
-  <img src="[https://img.shields.io/badge/TypeScript-Strong--Typed-blue?logo=typescript](https://img.shields.io/badge/TypeScript-Strong--Typed-blue?logo=typescript)" alt="TypeScript">
-  <img src="[https://img.shields.io/badge/TailwindCSS-v4-38bdf8?logo=tailwindcss](https://img.shields.io/badge/TailwindCSS-v4-38bdf8?logo=tailwindcss)" alt="Tailwind">
-  <img src="[https://img.shields.io/badge/License-MIT-green](https://img.shields.io/badge/License-MIT-green)" alt="License">
+  <img src="https://img.shields.io/badge/Next.js-15-black?logo=nextdotjs" alt="Next.js">
+  <img src="https://img.shields.io/badge/TypeScript-Strong--Typed-blue?logo=typescript" alt="TypeScript">
+  <img src="https://img.shields.io/badge/TailwindCSS-v4-38bdf8?logo=tailwindcss" alt="Tailwind">
+  <img src="https://img.shields.io/badge/License-MIT-green" alt="License">
 </p>
 
 ---
