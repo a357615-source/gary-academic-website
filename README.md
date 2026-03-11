@@ -64,26 +64,30 @@ Navigate to the frontend directory and install the necessary dependencies:
 ```bash
 cd frontend
 npm install
-3. Development
+```
+### 3. Development
 Start the local development server:
 
 ```bash
 npm run dev
 Open http://localhost:3000 in your browser to view the website.
+```
 
-4. Build for Production
+### 4. Build for Production
 To generate a production-ready build:
 
 ```bash
 npm run build
-🔧 Maintenance Guide
+```
+
+### 🔧 Maintenance Guide
 Update Profile Photo: Replace the image file at public/me.jpg.
 
 Modify Research Topics: Edit the researchTopics array inside app/page.tsx.
 
 Change Footer Signature: Search for the string YCCP inside the project to customize system credits.
 
-👨‍💻 Credits & Metadata
+### 👨‍💻 Credits & Metadata
 Principal Researcher: Gary Wang (Tokyo, Japan)
 
 Design & Engineering: YCCP Systems
@@ -92,4 +96,4 @@ Repository: a357615-source
 
 Last Updated: 2026-03-11
 
-<p align="center">© 2026 GARY WANG | Managed by YCCP Systems</p>
+
