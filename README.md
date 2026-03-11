@@ -14,6 +14,28 @@
 
 ---
 
+## 🌏 Overview
+
+This project is a **minimalist academic portfolio website** designed for **Gary Wang — AI Researcher based in Tokyo**. 
+
+The website serves as a digital academic identity, presenting research interests, academic background, and professional profile in a clean and modern interface. Developed by **YCCP Systems**, the project emphasizes:
+
+- **Elegant Academic Aesthetics**: Serif-driven design for a calm research atmosphere.
+- **High Performance**: Optimized with Next.js 15 Server Components.
+- **Mobile-First**: Seamless experience across iPhone, iPad, and Desktop.
+
+---
+
+## 🛠 Tech Stack
+
+| Layer | Technology | Description |
+|:---:|:---|:---|
+| **Framework** | **Next.js 15** | App Router architecture with React Server Components |
+| **Styling** | **Tailwind CSS v4** | Next-generation high-performance styling engine |
+| **Language** | **TypeScript** | Strong typing for a maintainable and robust architecture |
+| **Icons** | **Lucide React** | Lightweight and consistent SVG icon system |
+
+---
 ## 📂 Project Structure
 
 ```text
@@ -29,39 +51,61 @@ MyAcademicWebsite/
     ├── package.json         # 專案套件管理
     └── tsconfig.json        # TypeScript 設定
 🚀 Quick Start
-1. Prerequisites
-Ensure you have Node.js (LTS version) installed. Download here.
+1️⃣ Prerequisites
 
-2. Installation
+Ensure you have Node.js (LTS version) installed.
+
+Download here:
+https://nodejs.org
+
+2️⃣ Installation
+
 Navigate to the frontend directory and install dependencies:
 
-Bash
 cd frontend
 npm install
-3. Development
+3️⃣ Development
+
 Start the development server with hot-reload enabled:
 
-Bash
 npm run dev
-Open http://localhost:3000 to view the result.
 
-4. Production Build
-Bash
+Open in browser:
+
+http://localhost:3000
+4️⃣ Production Build
+
+Build the optimized production version:
+
 npm run build
 🔧 Maintenance Guide
-Update Profile Photo: Replace the image file at public/me.jpg.
+Update Profile Photo
 
-Modify Research Topics: Edit the researchTopics array inside app/page.tsx.
+Replace the file:
 
-Change Footer Signature: Search for the string YCCP inside the project to customize system credits.
+public/me.jpg
+Modify Research Topics
 
+Edit the researchTopics array inside:
+
+app/page.tsx
+Change Footer Signature
+
+Search the string below in the project:
+
+YCCP
 👨‍💻 Credits & Metadata
-Principal Researcher: Gary Wang (Tokyo, Japan)
 
-Design & Engineering: YCCP Systems
+Principal Researcher
+Gary Wang (Tokyo, Japan)
 
-Repository: a357615-source
+Design & Engineering
+YCCP Systems
 
-Last Updated: 2026-03-11
+Repository
+a357615-source
 
-<p align="center">© 2026 GARY WANG | Managed by YCCP Systems</p>
+Last Updated
+2026-03-11
+
+<p align="center"> © 2026 GARY WANG | Managed by YCCP Systems </p> ```
