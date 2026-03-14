@@ -4,14 +4,21 @@
   html, body {
     margin: 0;
     padding: 0;
-    background-color: #F9FAFB;
-    color: #111827;
-    /* 確保字體在不同設備上清晰 */
+    background-color: #FDFDFD;
+    /* 全站預設思源黑體 */
+    font-family: 'Noto Sans TC', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    color: #1D1D1F;
     -webkit-font-smoothing: antialiased;
+    scroll-behavior: smooth;
   }
 }
 
-/* 確保圖片比例正常 */
-.aspect-video {
-  aspect-ratio: 16 / 9;
+/* 專業襯線字體類別 */
+.font-serif-tc {
+  font-family: "Noto Serif TC", serif;
+}
+
+/* 自我介紹專用 Times New Roman */
+.font-times {
+  font-family: "Times New Roman", Times, serif;
 }
